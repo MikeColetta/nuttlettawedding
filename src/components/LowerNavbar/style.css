@@ -1,0 +1,25 @@
+.lowerNavbarDiv {
+    background-color: black;
+    color: white;
+}
+
+.lowerNavbar {
+    color: white;
+}
+
+.lowerNavbarBrand {
+    color: white;
+}
+
+.navbarItem {
+    color: white;
+}
+
+.lowerNavbarLinks {
+    margin-left:auto;
+}
+
+.lowerNavbarDropdown {
+    margin-right:auto;
+    margin-left: none;
+}
