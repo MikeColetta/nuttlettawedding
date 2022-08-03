@@ -3,11 +3,11 @@ import { Navbar, NavDropdown, Container } from "react-bootstrap";
 import { Link } from "react-router-dom"
 import "./style.css";
 
-function CustomNavbar() {
+function UpperNavbar() {
     return (
         <Container>
             <Navbar className="customNavbar" expand="lg" variant="dark">
-                <Link to="/">
+                <Link to="/" className="upperNavbarLink">
                     {/* <img
                         alt="Codex Logo"
                         src={Logo}
@@ -15,8 +15,9 @@ function CustomNavbar() {
                         height="60"
                         className="d-inline-block align-top navbarLogo"
                     />{' '} */}
+                    <h1 className="websiteName">Nuttletta National Park</h1>
                 </Link>
-                <h1>Nuttletta National Park</h1>
+                
                 <NavDropdown align="end" title="Menu" id="nav-dropdown" className='customDropdown'>
                     <Link to="/Info" className="customNavbarItem">
                         Info
@@ -43,4 +44,4 @@ function CustomNavbar() {
     )
 }
 
-export default CustomNavbar;
+export default UpperNavbar;

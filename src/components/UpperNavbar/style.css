@@ -22,4 +22,15 @@
     margin-left: auto;
     justify-content: end;
     font-size: large;
+    font-family: Kitten-Slant, serif;
+}
+
+.websiteName {
+    font-family: NPS_1935, serif;
+    font-size: large;
+    margin-top: 1vh;
+}
+.upperNavbarLink {
+    color: white;
+    text-decoration: none;
 }
