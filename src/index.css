@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'NPS_1935';
+  src: local('NPS_1935'), url(./fonts/NPS_1935/NPS_1935.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Kitten-Slant';
+  src: local('Kitten-Slant'), url(./fonts/Kitten-Slant/KittenSlantTrial.ttf) format('truetype');
+}
