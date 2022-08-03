@@ -18,24 +18,24 @@ function CustomNavbar() {
                 </Link>
                 <h1>Nuttletta National Park</h1>
                 <NavDropdown align="end" title="Menu" id="nav-dropdown" className='customDropdown'>
-                    <Link to="/Alerts" className="navbarItem">
-                        Alerts
-                    </Link>
-                    <br></br>
-                    <Link to="/Calendar" className="navbarItem">
-                        Calendar
-                    </Link>
-                    <br></br>
-                    <Link to="/Fees" className="navbarItem">
-                        Fees
-                    </Link>
-                    <br></br>
-                    <Link to="/Info" className="navbarItem">
+                    <Link to="/Info" className="customNavbarItem">
                         Info
                     </Link>
                     <br></br>
-                    <Link to="/Maps" className="navbarItem">
+                    <Link to="/Alerts" className="customNavbarItem">
+                        Alerts
+                    </Link>
+                    <br></br>
+                    <Link to="/Maps" className="customNavbarItem">
                         Maps
+                    </Link>
+                    <br></br>
+                    <Link to="/Calendar" className="customNavbarItem">
+                        Calendar
+                    </Link>
+                    <br></br>
+                    <Link to="/Fees" className="customNavbarItem">
+                        Fees
                     </Link>
                 </NavDropdown>
             </Navbar>
