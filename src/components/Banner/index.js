@@ -1,22 +1,23 @@
 import React from "react";
 import "./style.css";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 
 function Banner() {
     return (
         <div className="bannerContainer">
-            <Row className="welcomeMessage">
-                <Col xs={2}></Col>
-                <Col>
-                    <h1 >Nuttletta</h1>
-                </Col>
-                <Col>
-                    <p>National Park Washington</p>
-                </Col>
-                <Col xs={8}>
-                </Col>
-            </Row>
+            <div className="welcomeWrapper">
+                <Container className="welcomeMessage">
+                    <Row>
+                        <Col xs={2}><h1 >Nuttletta</h1></Col>
+                        <Col xs={2}>
+                            <p className="mb-0 mt-1">National Park</p>
+                            <p>Washington</p>
+                            </Col>
+                        <Col s={8}></Col>
+                    </Row>
+                </Container>
+            </div>
         </div>
     )
 }
