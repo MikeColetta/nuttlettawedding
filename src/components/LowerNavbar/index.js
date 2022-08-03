@@ -2,6 +2,8 @@ import React from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import { Link } from "react-router-dom"
 import "./style.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExclamationTriangle, faInfoCircle, faMapMarker, faCalendar, faTicket } from "@fortawesome/free-solid-svg-icons";
 
 function LowerNavbar() {
     return (
@@ -20,22 +22,32 @@ function LowerNavbar() {
                     </NavDropdown>
                     <Nav className="lowerNavbarLinks">
                         <Link to="/Info" className="customLowerNavbarItem">
+                            <FontAwesomeIcon icon={faInfoCircle}></FontAwesomeIcon>
+                            <br></br>
                             Info
                         </Link>
                         <br></br>
                         <Link to="/Alerts" className="customLowerNavbarItem">
+                            <FontAwesomeIcon icon={faExclamationTriangle}></FontAwesomeIcon>
+                            <br></br>
                             Alerts
-                        </Link>
+                        </Link>                       
                         <br></br>
                         <Link to="/Maps" className="customLowerNavbarItem">
+                            <FontAwesomeIcon icon={faMapMarker}></FontAwesomeIcon>
+                            <br></br>
                             Maps
                         </Link>
                         <br></br>
                         <Link to="/Calendar" className="customLowerNavbarItem">
+                            <FontAwesomeIcon icon={faCalendar}></FontAwesomeIcon>
+                            <br></br>
                             Calendar
                         </Link>
                         <br></br>
                         <Link to="/Fees" className="customLowerNavbarItem">
+                            <FontAwesomeIcon icon={faTicket}></FontAwesomeIcon>
+                            <br></br>
                             Fees
                         </Link>
                     </Nav>
