@@ -1,18 +1,23 @@
 import React from "react";
 import "./style.css";
-import {Image, Container} from "react-bootstrap";
-import Placeholder from '../../assets/images/Placeholder1.jpeg'
+import { Row, Col } from "react-bootstrap";
 
 
 function Banner() {
     return (
-        <Container className="bannerContainer">
-        <Image 
-            alt="Mike and Katy"
-            src={Placeholder}
-            className="banner">
-        </Image>
-        </Container>
+        <div className="bannerContainer">
+            <Row className="welcomeMessage">
+                <Col xs={2}></Col>
+                <Col>
+                    <h1 >Nuttletta</h1>
+                </Col>
+                <Col>
+                    <p>National Park Washington</p>
+                </Col>
+                <Col xs={8}>
+                </Col>
+            </Row>
+        </div>
     )
 }
 
