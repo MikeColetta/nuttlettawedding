@@ -23,3 +23,10 @@
     margin-right:auto;
     margin-left: none;
 }
+
+.customLowerNavbarItem {
+    margin-left: 1vw;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
