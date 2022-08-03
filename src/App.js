@@ -2,9 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CustomNavbar from './components/CustomNavbar';
+import UpperNavbar from './components/UpperNavbar';
 import Banner from './components/Banner'
 import LowerNavbar from './components/LowerNavbar';
+import Footer from './components/Footer';
 import Alerts from "./pages/Alerts";
 import Calendar from "./pages/Calendar";
 import Fees from "./pages/Fees";
@@ -15,7 +16,7 @@ import Maps from "./pages/Maps";
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <CustomNavbar/>
+      <UpperNavbar/>
       <Banner/>
       <LowerNavbar/>
       <Routes>
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Info" element={<Info/>} />
         <Route path="/Maps" element={<Maps/>} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
