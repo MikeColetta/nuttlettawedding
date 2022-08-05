@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 import LeafletMap from '../components/LeafletMap';
 
 class Maps extends React.Component {
@@ -8,10 +8,16 @@ class Maps extends React.Component {
         return (
             <div className="sectionDiv">
                 <Container>
-                    <h2>Maps: Info about location</h2>
-                    <p>Address</p>
-                    <LeafletMap/>
-                    <p>Written directions (with parking information)</p>
+                    <br></br>
+                    <Card>
+                        <Card.Header><h2>Maps: Location Information</h2></Card.Header>
+                        <Card.Body>
+                            <h4>University of Washington Pack Forest Conference Center</h4>
+                            <p>9010 453rd St E, Eatonville, WA 98328</p>
+                            <LeafletMap />
+                            <p>Written directions (with parking information)</p>
+                        </Card.Body>
+                    </Card>
                 </Container>
             </div>
         )

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 
 class Fees extends React.Component {
 
@@ -7,9 +7,12 @@ class Fees extends React.Component {
         return (
             <div className="sectionDiv">
                 <Container className="contentContainer">
-                    <h2>Fees: Info about accommodations</h2>
+                    <br></br>
+                    <Card>
+                        <Card.Header><h2>Fees: Info about accommodations</h2></Card.Header>          
                     <li>Expectations for twin beds, dining hall, shared bathrooms</li>
                     <li>Cost and payment to Katy (Cash, check, Venmo)</li>
+                    </Card>
                 </Container>
             </div>
         )

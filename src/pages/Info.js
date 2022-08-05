@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 
 class Info extends React.Component {
 
@@ -7,9 +7,12 @@ class Info extends React.Component {
         return (
             <div className="sectionDiv">
                 <Container>
-                    <h2>Info/Learn About the Park</h2>
-                    <li>How we met</li>
-                    <li>Family and party bios</li>
+                    <br></br>
+                    <Card>
+                        <Card.Header><h2>Info/Learn About the Park</h2></Card.Header>
+                        <li>How we met</li>
+                        <li>Family and party bios</li>
+                    </Card>
                 </Container>
             </div>
         )
