@@ -26,11 +26,20 @@
 }
 
 .websiteName {
-    font-family: NPS_1935, serif;
-    font-size: large;
+    font-family: Roboto, sans-serif;
+    font-size: x-large;
     margin-top: 1vh;
 }
 .upperNavbarLink {
     color: white;
     text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Roboto, sans-serif;
+    font-style: bold;
+}
+
+p {
+    font-family: LinuxLibertine, serif;
 }
