@@ -13,11 +13,11 @@ code {
 }
 
 @font-face {
-  font-family: 'NPS_1935';
-  src: local('NPS_1935'), url(./fonts/NPS_1935/NPS_1935.ttf) format('truetype');
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./fonts/Roboto/Roboto-Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Kitten-Slant';
-  src: local('Kitten-Slant'), url(./fonts/Kitten-Slant/KittenSlantTrial.ttf) format('truetype');
+  font-family: 'LinuxLibertine';
+  src: local('LinuxLibertine'), url(./fonts/LinuxLibertine/LinuxLibertineRegular.ttf) format('truetype');
 }
