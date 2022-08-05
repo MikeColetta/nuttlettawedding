@@ -12,43 +12,47 @@ function LowerNavbar() {
                 <Navbar className="lowerNavbar">
                     <NavDropdown title="Plan Your Visit" id="navbarScrollingDropdown" className="lowerNavbarDropdown">
                         <NavDropdown.Item href="#action3">
-                            Action</NavDropdown.Item>
+                            Eating
+                        </NavDropdown.Item>
                         <NavDropdown.Item href="#action4">
-                            Another action
+                            Sleeping
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">
+                            Accomodations
                         </NavDropdown.Item>
                         <NavDropdown.Item href="#action5">
-                            Something else here
+                            Recreation
                         </NavDropdown.Item>
                     </NavDropdown>
                     <Nav className="lowerNavbarLinks">
                         <Link to="/Info" className="customLowerNavbarItem">
-                            <FontAwesomeIcon icon={faInfoCircle}></FontAwesomeIcon>
-                            <br></br>
                             Info
+                            <br></br>
+                            <FontAwesomeIcon icon={faInfoCircle}></FontAwesomeIcon>
                         </Link>
                         <br></br>
                         <Link to="/Alerts" className="customLowerNavbarItem">
-                            <FontAwesomeIcon icon={faExclamationTriangle}></FontAwesomeIcon>
-                            <br></br>
                             Alerts
-                        </Link>                       
+                            <br></br>
+                            <FontAwesomeIcon icon={faExclamationTriangle}></FontAwesomeIcon>
+                        </Link>
                         <br></br>
                         <Link to="/Maps" className="customLowerNavbarItem">
-                            <FontAwesomeIcon icon={faMapMarker}></FontAwesomeIcon>
-                            <br></br>
                             Maps
+                            <br></br>
+                            <FontAwesomeIcon icon={faMapMarker}></FontAwesomeIcon>
                         </Link>
                         <br></br>
                         <Link to="/Calendar" className="customLowerNavbarItem">
-                            <FontAwesomeIcon icon={faCalendar}></FontAwesomeIcon>
-                            <br></br>
                             Calendar
+                            <br></br>
+                            <FontAwesomeIcon icon={faCalendar}></FontAwesomeIcon>
                         </Link>
                         <br></br>
                         <Link to="/Fees" className="customLowerNavbarItem">
-                            <FontAwesomeIcon icon={faTicket}></FontAwesomeIcon>
-                            <br></br>
                             Fees
+                            <br></br>
+                            <FontAwesomeIcon icon={faTicket}></FontAwesomeIcon>
                         </Link>
                     </Nav>
                 </Navbar>
