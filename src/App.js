@@ -22,24 +22,24 @@ import Fishing from "./pages/Fishing";
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <UpperNavbar/>
-      <Banner/>
-      <LowerNavbar/>
+      <UpperNavbar />
+      <Banner />
+      <LowerNavbar />
       <Routes>
-        <Route path= "/" element={<PlanYourVisit/>} />
-        <Route path="/Alerts" element={<Alerts/>} />
-        <Route path="/Calendar" element={<Calendar/>} />
-        <Route path="/Fees" element={<Fees/>} />
-        <Route path="/Info" element={<Info/>} />
-        <Route path="/Maps" element={<Maps/>} />
-        <Route path="/Eating" element={<Eating/>} />
-        <Route path="/Accomodations" element={<Accomodations/>} />
-        <Route path="/About" element={<About/>} />
-        <Route path="/Recreation" element={<Recreation/>} />
-        <Route path="/Hiking" element={<Hiking/>} />
-        <Route path="/Fishing" element={<Fishing/>} />
+        <Route path="/" element={<PlanYourVisit />} />
+        <Route path="/Alerts" element={<Alerts />} />
+        <Route path="/Calendar" element={<Calendar />} />
+        <Route path="/Fees" element={<Fees />} />
+        <Route path="/Info" element={<Info />} />
+        <Route path="/Maps" element={<Maps />} />
+        <Route path="/Eating" element={<Eating />} />
+        <Route path="/Accomodations" element={<Accomodations />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Recreation" element={<Recreation />} />
+        <Route path="/Hiking" element={<Hiking />} />
+        <Route path="/Fishing" element={<Fishing />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }
