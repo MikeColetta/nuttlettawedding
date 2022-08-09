@@ -39,6 +39,7 @@
 
 .contentContainer {
   background-color: white;
+  border: none;
 }
 
 .sectionDiv {
@@ -53,4 +54,9 @@ h1, h2, h3, h4, h5 {
 p {
   font-family: LinuxLibertine, serif;
   font-size: large;
+}
+
+.pageCard {
+  border: none !important;
+  text-align: center;
 }

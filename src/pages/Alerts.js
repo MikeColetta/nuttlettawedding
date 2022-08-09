@@ -9,8 +9,8 @@ class Alerts extends React.Component {
             <div className="sectionDiv">
                 <Container className="contentContainer">
                     <br></br>
-                    <Card>
-                        <Card.Header>
+                    <Card style={{ border: "none" }}>
+                        <Card.Header style={{ backgroundColor: "white" }}>
                             <h2>Covid Information</h2>
                         </Card.Header>
                         <Card.Body>

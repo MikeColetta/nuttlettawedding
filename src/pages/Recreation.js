@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
 
-class Fees extends React.Component {
+
+class Recreation extends React.Component {
 
     render() {
         return (
@@ -9,11 +10,12 @@ class Fees extends React.Component {
                 <Container className="contentContainer">
                     <br></br>
                     <Card style={{ border: "none" }}>
-                        <Card.Header style={{ backgroundColor: "white" }}>
-                            <h2>Fees: Info about accommodations</h2>
+                        <Card.Header>
+                            <h2>Recreation</h2>
                         </Card.Header>
-                        <li>Expectations for twin beds, dining hall, shared bathrooms</li>
-                        <li>Cost and payment to Katy (Cash, check, Venmo)</li>
+                        <Card.Body>
+                            <p>Menu coming soon!</p>
+                        </Card.Body>
                     </Card>
                 </Container>
             </div>
@@ -21,4 +23,4 @@ class Fees extends React.Component {
     }
 }
 
-export default Fees;
+export default Recreation;

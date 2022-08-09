@@ -8,8 +8,11 @@ class Calendar extends React.Component {
             <div className="sectionDiv">
                 <Container className="contentContainer">
                     <br></br>
-                    <Card>
+                    <Card style={{ border: "none" }}>
+                    <Card.Header style={{ backgroundColor: "white" }}>
+
                     <h2>Schedule</h2>
+                    </Card.Header>
                     <h4>Friday</h4>
                     <li>Check-In</li>
                     <li>BBQ</li>
