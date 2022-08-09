@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import "./style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle, faInfoCircle, faMapMarker, faCalendar, faTicket } from "@fortawesome/free-solid-svg-icons";
@@ -11,18 +11,49 @@ function LowerNavbar() {
             <Container>
                 <Navbar className="lowerNavbar">
                     <NavDropdown title="Plan Your Visit" id="navbarScrollingDropdown" className="lowerNavbarDropdown">
-                        <NavDropdown.Item href="#action3">
+                        <Link to="/Maps" className="customNavbarItem">
+                            Maps
+                        </Link>
+                        <br></br><Link to="/Eating" className="customNavbarItem">
                             Eating
-                        </NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">
-                            Sleeping
-                        </NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">
+                        </Link>
+                        <br></br>
+                        <Link to="/Accomodations" className="customNavbarItem">
                             Accomodations
-                        </NavDropdown.Item>
-                        <NavDropdown.Item href="#action5">
+                        </Link>
+                        <br></br>
+                        <Link to="/About" className="customNavbarItem">
+                            About the Venue
+                        </Link>
+                        <br></br>
+                        <Link to="/Recreation" className="customNavbarItem">
                             Recreation
-                        </NavDropdown.Item>
+                        </Link>
+                        <br></br>
+                        <Link to="/Calendar" className="customNavbarItem">
+                            Calendar
+                        </Link>
+                        <br></br>
+                        <Link to="/Hiking" className="customNavbarItem">
+                            Hiking
+                        </Link>
+                        <br></br>
+                        <Link to="/Fishing" className="customNavbarItem">
+                            Fishing
+                        </Link>
+                        <br></br>
+                        <Link to="/Fees" className="customNavbarItem">
+                            Fees
+                        </Link>
+                        <br></br>
+                        <Link to="/Info" className="customNavbarItem">
+                            Info
+                        </Link>
+                        <br></br>
+                        <Link to="/Alerts" className="customNavbarItem">
+                            Alerts
+                        </Link>
+                        <br></br>
                     </NavDropdown>
                     <Nav className="lowerNavbarLinks">
                         <Link to="/Info" className="customLowerNavbarItem">
