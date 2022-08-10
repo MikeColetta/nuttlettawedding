@@ -34,12 +34,12 @@ function LowerNavbar() {
                             Calendar
                         </Link>
                         <br></br>
-                        <Link to="/Hiking" className="customNavbarItem">
-                            Hiking
+                        <Link to="/Registry" className="customNavbarItem">
+                            Registry
                         </Link>
                         <br></br>
-                        <Link to="/Fishing" className="customNavbarItem">
-                            Fishing
+                        <Link to="/Contact" className="customNavbarItem">
+                            Contact
                         </Link>
                         <br></br>
                         <Link to="/Fees" className="customNavbarItem">
