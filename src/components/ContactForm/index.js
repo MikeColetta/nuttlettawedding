@@ -37,7 +37,7 @@ function ContactForm() {
                         <div className="col-8 form-group pt-2 mx-auto">
                             <textarea className="form-control" cols="30" rows="8" placeholder="Your message" name="message" required></textarea>
                         </div>
-                        <div className="col-8 pt-2 mx-auto">
+                        <div className="col-8 pt-2 mb-2 mx-auto">
                             <input type="submit" className="btn sendButton" value="Send"></input>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ function ContactForm() {
             </div>
 
             {showModal && (
-                <ToastContainer position='top-center'>
+                <ToastContainer position='middle-center'>
                     <Toast show={showModal} onClose={toggleShow}>
                         <Toast.Header>
                             <strong className="me-auto">Nuttletta Wedding</strong>
