@@ -69,3 +69,11 @@ p {
   color: black;
   text-decoration: none;
 }
+
+.alertsTitle {
+  display: inline-block;
+  background-color: maroon;
+  color: white;
+  padding-right: 0.25vw;
+  padding-left: 0.25vw;
+}
