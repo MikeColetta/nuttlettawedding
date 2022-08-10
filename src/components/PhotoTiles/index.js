@@ -8,8 +8,8 @@ import Accomodations from "../../assets/images/phototiles/Accomodations.jpg";
 import About from "../../assets/images/phototiles/About.jpg";
 import Recreation from "../../assets/images/phototiles/Recreation.jpg";
 import Calendar from "../../assets/images/phototiles/Calendar.jpg";
-import Hiking from "../../assets/images/phototiles/Hiking.jpg";
-import Fishing from "../../assets/images/phototiles/Fishing.jpg";
+import Registry from "../../assets/images/phototiles/Registry.jpg";
+import Contact from "../../assets/images/phototiles/Contact.jpg";
 import Fees from "../../assets/images/phototiles/Fees.jpg";
 
 function PhotoTiles() {
@@ -21,9 +21,9 @@ function PhotoTiles() {
                         <Card.Img variant="top" src={Directions} />
                         <Card.Body>
                             <Link to="/Maps" className="photoTileLink">
-                                <Card.Title>Directions/Transportation</Card.Title>
+                                <Card.Title>Location and Directions</Card.Title>
                             </Link>
-                            <Card.Text>Address, map, and directions on how to get to the wedding!</Card.Text>
+                            <Card.Text>Address, map, and directions to the venue.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -34,7 +34,7 @@ function PhotoTiles() {
                             <Link to="/Eating" className="photoTileLink">
                                 <Card.Title>Eating</Card.Title>
                             </Link>
-                            <Card.Text>Drinks, Food, and the Menu!</Card.Text>
+                            <Card.Text>Drinks, Food, and the Menu.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -45,7 +45,7 @@ function PhotoTiles() {
                             <Link to="/Accomodations" className="photoTileLink">
                                 <Card.Title>Accomodations</Card.Title>
                             </Link>
-                            <Card.Text>A brief description of where you will be staying!</Card.Text>
+                            <Card.Text>A brief description of where you will be staying.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -58,7 +58,7 @@ function PhotoTiles() {
                             <Link to="/About" className="photoTileLink">
                                 <Card.Title>About the Venue</Card.Title>
                             </Link>
-                            <Card.Text>Everything you need to know about the UW Pack Forest Conference Center!</Card.Text>
+                            <Card.Text>Everything you need to know about the UW Pack Forest Conference Center.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -69,7 +69,7 @@ function PhotoTiles() {
                             <Link to="/Recreation" className="photoTileLink">
                                 <Card.Title>Recreation</Card.Title>
                             </Link>
-                            <Card.Text>Fun stuff to do around the venue!</Card.Text>
+                            <Card.Text>Fun stuff to do around the venue.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -80,7 +80,7 @@ function PhotoTiles() {
                             <Link to="/Calendar" className="photoTileLink">
                                 <Card.Title>Calendar/Schedule</Card.Title>
                             </Link>
-                            <Card.Text>Important Dates and Times for the Event!</Card.Text>
+                            <Card.Text>Important Dates and Times for the Event.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -88,23 +88,23 @@ function PhotoTiles() {
             <Row className="mt-2">
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={Hiking} />
+                        <Card.Img variant="top" src={Registry} />
                         <Card.Body>
-                            <Link to="/Hiking" className="photoTileLink">
-                                <Card.Title>Hiking</Card.Title>
+                            <Link to="/Registry" className="photoTileLink">
+                                <Card.Title>Registry</Card.Title>
                             </Link>
-                            <Card.Text>Trails around the venue!</Card.Text>
+                            <Card.Text>See where we're registred.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={Fishing} />
+                        <Card.Img variant="top" src={Contact} />
                         <Card.Body>
-                            <Link to="/Fishing" className="photoTileLink">
-                                <Card.Title>Fishing</Card.Title>
+                            <Link to="/Contact" className="photoTileLink">
+                                <Card.Title>Contact</Card.Title>
                             </Link>
-                            <Card.Text>Fishing around the venue!</Card.Text>
+                            <Card.Text>Contact us with any questions.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -115,7 +115,7 @@ function PhotoTiles() {
                             <Link to="/Fees" className="photoTileLink">
                                 <Card.Title>Fee Information</Card.Title>
                             </Link>
-                            <Card.Text>Cost and expenses for the weekend!</Card.Text>
+                            <Card.Text>Cost and expenses for the weekend.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
