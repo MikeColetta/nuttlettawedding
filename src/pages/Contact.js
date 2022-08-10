@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
+import ContactForm from '../components/ContactForm';
 
 class Contact extends React.Component {
 
@@ -11,8 +12,8 @@ class Contact extends React.Component {
                         <Card.Header style={{ backgroundColor: "white" }}>
                             <h2 className='mt-2'>Contact</h2>
                         </Card.Header>
-
                     </Card>
+                    <ContactForm />
                 </Container>
             </div>
         )
