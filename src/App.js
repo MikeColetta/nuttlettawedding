@@ -16,8 +16,8 @@ import Eating from "./pages/Eating";
 import Accomodations from "./pages/Accomodations";
 import About from "./pages/About";
 import Recreation from "./pages/Recreation";
-import Hiking from "./pages/Hiking";
-import Fishing from "./pages/Fishing";
+import Registry from "./pages/Registry";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -36,8 +36,8 @@ function App() {
         <Route path="/Accomodations" element={<Accomodations />} />
         <Route path="/About" element={<About />} />
         <Route path="/Recreation" element={<Recreation />} />
-        <Route path="/Hiking" element={<Hiking />} />
-        <Route path="/Fishing" element={<Fishing />} />
+        <Route path="/Registry" element={<Registry />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
