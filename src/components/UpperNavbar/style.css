@@ -34,3 +34,7 @@
     color: white;
     text-decoration: none;
 }
+
+.upperNavbarLink:hover {
+    color: white;
+}
