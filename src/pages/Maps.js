@@ -9,8 +9,8 @@ class Maps extends React.Component {
             <div className="sectionDiv">
                 <Container>
                     <br></br>
-                    <Card style={{border:"none"}}>
-                        <Card.Header style={{backgroundColor:"white"}}><h2>Maps: Location Information</h2></Card.Header>
+                    <Card style={{ border: "none" }}>
+                        <Card.Header style={{ backgroundColor: "white" }}><h2>Venue Information</h2></Card.Header>
                         <Card.Body>
                             <h4>University of Washington Pack Forest Conference Center</h4>
                             <p>9010 453rd St E, Eatonville, WA 98328</p>

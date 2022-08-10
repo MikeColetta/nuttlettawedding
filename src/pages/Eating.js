@@ -14,7 +14,12 @@ class Eating extends React.Component {
                             <h2>Eating</h2>
                         </Card.Header>
                         <Card.Body>
-                            <p>Menu coming soon!</p>
+                            <p>If you're staying with us for the weekend, food will be provided. Stay tuned to this page for a menu coming soon!</p>
+                            <br></br>
+                            <p>If you're not staying with us, here are some local recommendations:</p>
+                            <ul>
+                                <li>restaurant recommendations go on this list.</li>
+                            </ul>
                         </Card.Body>
                     </Card>
                 </Container>
