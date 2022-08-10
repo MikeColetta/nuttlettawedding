@@ -26,3 +26,12 @@
 .rowContainer {
     text-align: none;
 }
+
+.bannerLink {
+    color: white;
+    text-decoration: none;
+}
+
+.bannerLink:hover {
+    color: white;
+}
