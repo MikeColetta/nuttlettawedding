@@ -13,11 +13,10 @@ class Fees extends React.Component {
                             <h2>Fees: Information About Accommodations</h2>
                         </Card.Header>
                         <Card.Body>
-                            <p>Guests are encouraged to come just Saturday for the ceremony and reception, but we encourage guests to stay the whole weekend!</p>
-                            <p>Guests staying with us the entire weekend will get two night stay on the event property and all meals will be included.</p>
+                            <p>Guests may only attend Saturday for the ceremony and reception, but we encourage guests to stay the whole weekend!</p>
+                            <p>Guests staying with us the entire weekend will get a two night stay on the event property and all meals will be included.</p>
+                            <p>Payment can be given to Katy via cash, check, or Venmo (@TheNuttChild).</p>
                         </Card.Body>
-                        <li>Expectations for twin beds, dining hall, shared bathrooms</li>
-                        <li>Cost and payment to Katy (Cash, check, Venmo)</li>
                     </Card>
                 </Container>
             </div>
