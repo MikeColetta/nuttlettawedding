@@ -1,6 +1,6 @@
 # Nuttletta Wedding Website
 
-![GitHub](https://img.shields.io/github/license/MikeColetta/codexpodcast)
+![GitHub](https://img.shields.io/github/license/MikeColetta/nuttlettawedding)
 
 ## Project Description
 
