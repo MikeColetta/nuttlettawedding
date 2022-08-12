@@ -39,7 +39,7 @@ class Recreation extends React.Component {
                             <h2>Hiking</h2>
                         </Card.Header>
                         <Card.Body>
-                            <p>Menu coming soon!</p>
+                            <p>Hiking information coming soon!</p>
                         </Card.Body>
                     </Card>
                 </Container>
