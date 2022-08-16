@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/nuttlettawedding/static/css/main.b4c42aaa.css",
-    "main.js": "/nuttlettawedding/static/js/main.7000a897.js",
+    "main.css": "/nuttlettawedding/static/css/main.bce43aad.css",
+    "main.js": "/nuttlettawedding/static/js/main.38460856.js",
     "static/js/787.5553599e.chunk.js": "/nuttlettawedding/static/js/787.5553599e.chunk.js",
+    "static/media/RegistryPage.jpg": "/nuttlettawedding/static/media/RegistryPage.816f23a93be03fcf4c16.jpg",
     "static/media/AboutPage.jpg": "/nuttlettawedding/static/media/AboutPage.427b99ff6f4eb379ad54.jpg",
     "static/media/Placeholder1.jpeg": "/nuttlettawedding/static/media/Placeholder1.d9659a9af542f3e3c12e.jpeg",
     "static/media/LinuxLibertineRegular.ttf": "/nuttlettawedding/static/media/LinuxLibertineRegular.179472aa60d5d672f16d.ttf",
     "static/media/AccomodationsPage.jpg": "/nuttlettawedding/static/media/AccomodationsPage.0b3ce84d8f081ff26847.jpg",
     "static/media/Accomodations.jpg": "/nuttlettawedding/static/media/Accomodations.c15272662fb5051be64a.jpg",
+    "static/media/HikingPage.jpg": "/nuttlettawedding/static/media/HikingPage.e8d2cc04a79e88e28f6c.jpg",
     "static/media/Mattie.jpg": "/nuttlettawedding/static/media/Mattie.9ee5066dc3043626ded8.jpg",
     "static/media/About.jpg": "/nuttlettawedding/static/media/About.c7d0544553b1cc807c16.jpg",
     "static/media/Roboto-Regular.ttf": "/nuttlettawedding/static/media/Roboto-Regular.f25bd05915c1a3468d3d.ttf",
@@ -26,12 +28,12 @@
     "static/media/Brian.jpg": "/nuttlettawedding/static/media/Brian.edacbb780b1dd8151879.jpg",
     "static/media/Pat.jpg": "/nuttlettawedding/static/media/Pat.710cbd6f3ace170efeaa.jpg",
     "index.html": "/nuttlettawedding/index.html",
-    "main.b4c42aaa.css.map": "/nuttlettawedding/static/css/main.b4c42aaa.css.map",
-    "main.7000a897.js.map": "/nuttlettawedding/static/js/main.7000a897.js.map",
+    "main.bce43aad.css.map": "/nuttlettawedding/static/css/main.bce43aad.css.map",
+    "main.38460856.js.map": "/nuttlettawedding/static/js/main.38460856.js.map",
     "787.5553599e.chunk.js.map": "/nuttlettawedding/static/js/787.5553599e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4c42aaa.css",
-    "static/js/main.7000a897.js"
+    "static/css/main.bce43aad.css",
+    "static/js/main.38460856.js"
   ]
 }
