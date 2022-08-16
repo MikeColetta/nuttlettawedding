@@ -60,6 +60,11 @@ p {
   font-size: large;
 }
 
+li {
+  font-family: LinuxLibertine, serif;
+  font-size: large;
+}
+
 .pageCard {
   border: none !important;
   text-align: center;
