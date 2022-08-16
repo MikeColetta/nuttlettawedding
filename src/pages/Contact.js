@@ -13,9 +13,13 @@ class Contact extends React.Component {
                             <h2 className='mt-2'>Contact</h2>
                         </Card.Header>
                     </Card>
+                    <br></br>
+                    <h5 style={{ textAlign: "center" }}>Do you have questions about our wedding celebration, the venue, or something else not listed?
+                        Reach out here!
+                    </h5>
                     <ContactForm />
                 </Container>
-            </div>
+            </div >
         )
     }
 }
