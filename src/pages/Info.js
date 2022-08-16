@@ -15,8 +15,9 @@ class Info extends React.Component {
                 <Container>
                     <br></br>
                     <Card style={{ border: "none" }}>
-                        <Card.Header style={{ backgroundColor: "white" }}><h2>How Mike and Katy Met</h2></Card.Header>
-
+                        <Card.Header style={{ backgroundColor: "white" }}>
+                            <h2>How Mike and Katy Met</h2>
+                        </Card.Header>
                         <p>Mike and Katy met at Washington State University in the Nuthouse Improv Troupe. They actually both
                             had their first show with Nuthouse together.
                         </p>
