@@ -15,9 +15,9 @@ function UpperNavbar() {
                         height="60"
                         className="d-inline-block align-top navbarLogo"
                     />{' '} */}
-                    <h1 className="websiteName">Nuttletta National Park</h1>
+                    <h1 className="websiteName">Mike and Katy's Wedding</h1>
                 </Link>
-                
+
                 <NavDropdown align="end" title="Menu" id="nav-dropdown" className='customDropdown'>
                     <Link to="/Info" className="customNavbarItem">
                         Info
