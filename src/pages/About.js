@@ -15,6 +15,7 @@ class About extends React.Component {
                             <h2>About the UW Pack Forest Conference Center</h2>
                         </Card.Header>
                         <Image src={AboutPageImage} style={{ height: "75%", width: "75%", margin: "auto" }} className="mt-2"></Image>
+                        <br></br>
                         <Card.Body>
                             <p>The Pack Forest Conference Center lies at the foot of Mount Rainier, nestled among stately Douglas-fir in a 4,300 acre forest.
                                 Rich in history, Pack Forest offers top quality meeting rooms and comfortable overnight accommodations. Owned by the University of
