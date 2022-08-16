@@ -17,35 +17,54 @@ class Calendar extends React.Component {
                     <Table className="mt-2" responsive="sm">
                         <thead>
                             <tr>
-                                <th>Time</th>
                                 <th>Friday, August 11th</th>
-                                <th>Saturday, August 12th</th>
-                                <th>Sunday, August 13th</th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Morning</td>
-                                <td>N/A</td>
-                                <td>8:00am to 3:00pm - Free time</td>
-                                <td>8:00am to 11:00am - Breakfast and Goodbyes</td>
-
+                                <td>5:00pm</td>
+                                <td>Arrival and BBQ</td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th>Saturday, August 12th</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>8:00am - 4:00pm</td>
+                                <td>Free Time</td>
                             </tr>
                             <tr>
-                                <td>Afternoon</td>
-                                <td>N/A</td>
-                                <td>4:00pm - Wedding Ceremony</td>
-                                <td>N/A</td>
-
+                                <td>4:00pm</td>
+                                <td>Cocktail Hour</td>
                             </tr>
                             <tr>
-                                <td>Evening</td>
-                                <td>5:00pm - Arrival and Cookout!</td>
-                                <td>6:00pm - Reception</td>
-                                <td>N/A</td>
+                                <td>5:00pm</td>
+                                <td>Wedding Ceremony</td>
+                            </tr>
+                            <tr>
+                                <td>5:30pm</td>
+                                <td>Reception</td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th>Sunday, August 13th</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10:30am</td>
+                                <td>Checkout and Brunch</td>
                             </tr>
                         </tbody>
                     </Table>
+                    <br></br>
                 </Container>
 
             </div>
