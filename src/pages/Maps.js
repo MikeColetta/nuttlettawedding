@@ -15,6 +15,7 @@ class Maps extends React.Component {
                             <h4>University of Washington Pack Forest Conference Center</h4>
                             <p>9010 453rd St E, Eatonville, WA 98328</p>
                             <LeafletMap />
+                            <br></br>
                             <h4 className='mt-2'>Written directions</h4>
                             <h6>from SeaTac International Airport</h6>
                             <ol>
