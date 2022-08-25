@@ -27,8 +27,6 @@ class Alerts extends React.Component {
                                 <li>Continue to face the bear and back away slowly, talking calmly to identify yourself as a human.</li>
                                 <li>If the bear continues to approach, try to scare it away by making yourself as large and imposing as possible
                                     by stretching your arms overhead and making loud noises.</li>
-                                <li>Carry and know how to use bear spray, which is available at many outdoor retailers and can be used to deter a charging bear.
-                                    Food Storage"</li>
                             </ul>
                         </Card.Body>
                     </Card>

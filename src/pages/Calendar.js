@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Card, Table } from 'react-bootstrap';
+import { Container, Card, Table, Image } from 'react-bootstrap';
+import CalendarPageImage from '../assets/images/CalendarPageImage.jpg';
 
 class Calendar extends React.Component {
 
@@ -48,7 +49,7 @@ class Calendar extends React.Component {
                             </tr>
                             <tr>
                                 <td>5:30pm</td>
-                                <td>Reception</td>
+                                <td>Dinner and Reception</td>
                             </tr>
                         </tbody>
                         <thead>
@@ -65,6 +66,7 @@ class Calendar extends React.Component {
                         </tbody>
                     </Table>
                     <br></br>
+                    <Image src={CalendarPageImage} style={{ height: "100%", width: "100%", margin: "auto" }} className="mt-2 mb-2"></Image>
                 </Container>
 
             </div>

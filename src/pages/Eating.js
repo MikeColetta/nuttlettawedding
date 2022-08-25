@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Card, Image } from 'react-bootstrap';
-import EatingPageImage from '../assets/images/EatingPage.jpg';
+import EatingPageImage from '../assets/images/EatingPageImage.jpg';
 
 
 class Eating extends React.Component {
