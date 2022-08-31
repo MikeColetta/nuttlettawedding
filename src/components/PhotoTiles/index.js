@@ -93,7 +93,7 @@ function PhotoTiles() {
                             <Link to="/Registry" className="photoTileLink">
                                 <Card.Title>Registry</Card.Title>
                             </Link>
-                            <Card.Text>See where we're registred.</Card.Text>
+                            <Card.Text>See where we're registered.</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
