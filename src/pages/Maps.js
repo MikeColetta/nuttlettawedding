@@ -28,6 +28,7 @@ class Maps extends React.Component {
                                     58 s (0.6 mi)</li>
                                 <li>Follow WA-7 S to 453rd St E in La Grande</li>
                             </ol>
+                            <h6>The Pack Forest Conference Center is approximately 45 minutes from Tacoma</h6>
                             <h4>Parking Information</h4>
                             <p>Free parking is available on the property.</p>
                         </Card.Body>
