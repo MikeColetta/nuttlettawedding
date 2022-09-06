@@ -23,9 +23,9 @@ class Eating extends React.Component {
                                 You can also grab a scoop or two of ice cream at the cafe in Whittaker's Bunkhouse</p>
                             <p>Here are some local spots in nearby Eatonville:</p>
                             <ul>
-                                <li><a className="foodRecLink" href='https://www.eatbrunos.com/menus' target={"_blank"} rel="noreferrer">Bruno's Family Restaurant and Bar</a></li>
-                                <li><a className="foodRecLink" href='https://www.eatatcruisercafe.com/' target={"_blank"} rel="noreferrer">Cruiser Cafe</a></li>
-                                <li><a className="foodRecLink" href='http://shakentogo.com/' target={"_blank"} rel="noreferrer">Shaken</a></li>
+                                <li><a className="recLink" href='https://www.eatbrunos.com/menus' target={"_blank"} rel="noreferrer">Bruno's Family Restaurant and Bar</a></li>
+                                <li><a className="recLink" href='https://www.eatatcruisercafe.com/' target={"_blank"} rel="noreferrer">Cruiser Cafe</a></li>
+                                <li><a className="recLink" href='http://shakentogo.com/' target={"_blank"} rel="noreferrer">Shaken</a></li>
                             </ul>
                         </Card.Body>
                     </Card>
