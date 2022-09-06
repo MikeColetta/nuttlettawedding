@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9614265a.css",
-    "main.js": "/static/js/main.d0148ebc.js",
+    "main.css": "/static/css/main.d7617a37.css",
+    "main.js": "/static/js/main.121515ef.js",
     "static/js/787.5553599e.chunk.js": "/static/js/787.5553599e.chunk.js",
     "static/media/RegistryPage.jpg": "/static/media/RegistryPage.5694b1a4f0a2c4b3d51f.jpg",
     "static/media/LinuxLibertineRegular.ttf": "/static/media/LinuxLibertineRegular.179472aa60d5d672f16d.ttf",
@@ -23,20 +23,21 @@
     "static/media/Directions.jpg": "/static/media/Directions.d41c313692bbd6e189ab.jpg",
     "static/media/EatingPageImage.jpg": "/static/media/EatingPageImage.8765dc4a8f5e0687dda2.jpg",
     "static/media/Cass.jpg": "/static/media/Cass.a3357c2d0b267392376a.jpg",
-    "static/media/Eating.jpg": "/static/media/Eating.a2bf12addc10fede9b9e.jpg",
     "static/media/Fees.jpg": "/static/media/Fees.857435ffce77552edd34.jpg",
+    "static/media/OtherActivitiesImage.jpg": "/static/media/OtherActivitiesImage.70affa8b6f49fd7c231b.jpg",
     "static/media/Adrianna.jpg": "/static/media/Adrianna.46b41d84cdd04b4e4fab.jpg",
     "static/media/Brian.jpg": "/static/media/Brian.62edd53815d466ede3fb.jpg",
     "static/media/Frank.jpg": "/static/media/Frank.7d424f83f406b03759c7.jpg",
     "static/media/Registry.jpg": "/static/media/Registry.a4eef001b4637250e31d.jpg",
+    "static/media/Eating.jpg": "/static/media/Eating.bb8abd46b1d77b098fc8.jpg",
     "static/media/Pat.jpg": "/static/media/Pat.710cbd6f3ace170efeaa.jpg",
     "index.html": "/index.html",
-    "main.9614265a.css.map": "/static/css/main.9614265a.css.map",
-    "main.d0148ebc.js.map": "/static/js/main.d0148ebc.js.map",
+    "main.d7617a37.css.map": "/static/css/main.d7617a37.css.map",
+    "main.121515ef.js.map": "/static/js/main.121515ef.js.map",
     "787.5553599e.chunk.js.map": "/static/js/787.5553599e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9614265a.css",
-    "static/js/main.d0148ebc.js"
+    "static/css/main.d7617a37.css",
+    "static/js/main.121515ef.js"
   ]
 }
