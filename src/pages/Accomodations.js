@@ -36,48 +36,39 @@ class Accomodations extends React.Component {
                             <h2>Packing List</h2>
                         </Card.Header>
                         <Card.Text>
-                            <h4 className='mt-2'>Clothing</h4>
+                            <h4 className="mt-2">In addition to the usual items you'd pack for a weekend away, here are some useful suggestions to help keep you comfortable for a weekend away in the woods. </h4>
+                            <br></br>
+                            <h5 className='mt-2'>Clothing</h5>
                             <ul>
                                 <li>Clothing to keep you cool in the sun, and warm in the evenings</li>
                                 <li><a href='https://www.theknot.com/content/what-to-wear-semi-formal' target={'_blank'} rel='noreferrer'>Semi-formal attire </a>
                                     for the wedding (no jackets needed for gentlemen in the heat)</li>
-                                <li>Socks and underwear</li>
-                                <li>Regular shoes/sandals</li>
                                 <li>Hiking socks and boots to trek a trail or two</li>
-                                <li>Shower shoes and a bathrobe</li>
-                                <li>Pajamas and loungewear</li>
+                                <li>Shower shoes and a bathrobe (you may be using a communal bathroom)</li>
                                 <li>Sun hat</li>
                                 <li>Sunglasses</li>
                                 <li>Insulation layer for a chilly evening</li>
                                 <li>A rain jacket (to prevent it from raining)</li>
                             </ul>
-                            <h4>Toiletries</h4>
+                            <h5>Toiletries</h5>
                             <ul>
                                 <li>Sunscreen</li>
                                 <li>Bugspray</li>
                                 <li>Personal towel and wash cloth</li>
-                                <li>Toothbrush and toothpaste</li>
-                                <li>Deodorant</li>
-                                <li>Earplugs (in case someone in your cabin snores)</li>
-                                <li>Hand sanitizer</li>
                             </ul>
-                            <h4>Gear and Gadgets</h4>
+                            <h5>Gear and Gadgets</h5>
                             <ul>
                                 <li>Headlamp or flashlight</li>
-                                <li>Camera</li>
-                                <li>Chargers</li>
-                                <li>Headphones</li>
                                 <li>Reusable water bottle (we're trying to keep the wedding as plastic free as possible!)</li>
                                 <li>Camp chairs or picnic blankets</li>
                             </ul>
-                            <h4>Optional Items</h4>
+                            <h5>Optional Items</h5>
                             <ul>
                                 <li>Lawn games, board games, card games</li>
                                 <li>Hiking needs (day pack, Ten Essentials)</li>
                                 <li>Fishing needs (bait, tackle, accessories)</li>
                                 <li>Hammock</li>
                                 <li>Binoculars and bird book</li>
-                                <li>Camera</li>
                             </ul>
                         </Card.Text>
                     </Card>
