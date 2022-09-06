@@ -17,8 +17,7 @@ class Registry extends React.Component {
                         <br></br>
                         <Card.Body>
                             <p>Gifts are not expected, but should you feel inclined, we've collected some options to help us celebrate our future together.
-                                Check out our registry on
-                                <a href='https://registry.theknot.com/katy-nuttman-mike-coletta-august-2023-wa/51681427' target={"_blank"} rel="noreferrer">The Knot</a>.
+                                Check out our registry on <a href='https://registry.theknot.com/katy-nuttman-mike-coletta-august-2023-wa/51681427' target={"_blank"} rel="noreferrer">The Knot</a>.
                             </p>
                         </Card.Body>
                     </Card>
