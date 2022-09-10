@@ -2,15 +2,6 @@ import React from "react";
 import "./style.css";
 import { Row, Col, Card, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Directions from "../../assets/images/phototiles/Directions.jpg";
-import Eating from "../../assets/images/phototiles/Eating.jpg";
-import Accomodations from "../../assets/images/phototiles/Accomodations.jpg";
-import About from "../../assets/images/phototiles/About.jpg";
-import Recreation from "../../assets/images/phototiles/Recreation.jpg";
-import Calendar from "../../assets/images/phototiles/Calendar.jpg";
-import Registry from "../../assets/images/phototiles/Registry.jpg";
-import Contact from "../../assets/images/phototiles/Contact.jpg";
-import Fees from "../../assets/images/phototiles/Fees.jpg";
 
 function PhotoTiles() {
     return (
@@ -18,7 +9,7 @@ function PhotoTiles() {
             <Row>
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={Directions} />
+                        <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Directions_0AXyEWpiBD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795539151" />
                         <Card.Body>
                             <Link to="/Maps" className="photoTileLink">
                                 <Card.Title>Location and Directions</Card.Title>
@@ -29,7 +20,7 @@ function PhotoTiles() {
                 </Col>
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={Eating} />
+                        <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Eating_4jcG2VmVE.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795539001" />
                         <Card.Body>
                             <Link to="/Eating" className="photoTileLink">
                                 <Card.Title>Eating</Card.Title>
@@ -40,7 +31,7 @@ function PhotoTiles() {
                 </Col>
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={Accomodations} />
+                        <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Accomodations_UOW6oh0c2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795539976" />
                         <Card.Body>
                             <Link to="/Accomodations" className="photoTileLink">
                                 <Card.Title>Accomodations</Card.Title>
@@ -53,7 +44,7 @@ function PhotoTiles() {
             <Row className="mt-2">
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={About} />
+                        <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/About_-WP24av3P.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795538947" />
                         <Card.Body>
                             <Link to="/About" className="photoTileLink">
                                 <Card.Title>About the Venue</Card.Title>
@@ -64,7 +55,7 @@ function PhotoTiles() {
                 </Col>
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={Recreation} />
+                        <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Recreation_fyzM4zXf9.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795539785" />
                         <Card.Body>
                             <Link to="/Recreation" className="photoTileLink">
                                 <Card.Title>Recreation</Card.Title>
@@ -75,7 +66,7 @@ function PhotoTiles() {
                 </Col>
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={Calendar} />
+                        <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Calendar_868WiEw_iF.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795539227" />
                         <Card.Body>
                             <Link to="/Calendar" className="photoTileLink">
                                 <Card.Title>Calendar/Schedule</Card.Title>
@@ -88,7 +79,7 @@ function PhotoTiles() {
             <Row className="mt-2">
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={Registry} />
+                        <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Registry_4SR_x5oSS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795538898" />
                         <Card.Body>
                             <Link to="/Registry" className="photoTileLink">
                                 <Card.Title>Registry</Card.Title>
@@ -99,7 +90,7 @@ function PhotoTiles() {
                 </Col>
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={Contact} />
+                        <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Contact_OdjR7KNBg1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795539282" />
                         <Card.Body>
                             <Link to="/Contact" className="photoTileLink">
                                 <Card.Title>Contact</Card.Title>
@@ -110,7 +101,7 @@ function PhotoTiles() {
                 </Col>
                 <Col>
                     <Card className="photoTileCard">
-                        <Card.Img variant="top" src={Fees} />
+                        <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/FeesPhototile_Y4duoqYci.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795370054" />
                         <Card.Body>
                             <Link to="/Fees" className="photoTileLink">
                                 <Card.Title>Fee Information</Card.Title>
