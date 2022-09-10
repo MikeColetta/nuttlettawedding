@@ -1,8 +1,5 @@
 import React from 'react';
 import { Container, Card, Image } from 'react-bootstrap';
-import fishingPageImage from '../assets/images/FishingPage.jpg';
-import hikingPageImage from '../assets/images/HikingPage.jpg';
-import otherActivitiesImage from '../assets/images/OtherActivitiesImage.jpg';
 
 class Recreation extends React.Component {
 
