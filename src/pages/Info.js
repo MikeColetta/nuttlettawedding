@@ -1,12 +1,6 @@
 import React from 'react';
 import { Container, Card, Image } from 'react-bootstrap';
 import InfoPageImage from '../assets/images/InfoPageImage.jpg';
-import Adrianna from '../assets/images/infopage/Adrianna.jpg';
-import Cass from '../assets/images/infopage/Cass.jpg';
-import Mattie from '../assets/images/infopage/Mattie.jpg';
-import Brian from '../assets/images/infopage/Brian.jpg';
-import Frank from '../assets/images/infopage/Frank.jpg';
-import Pat from '../assets/images/infopage/Pat.jpg';
 
 class Info extends React.Component {
 
@@ -27,11 +21,7 @@ class Info extends React.Component {
                             and English, graduating in 2011. Since 2018 they've been living in Normandy Park with their loveable murder muppet, Delilah.
 
                             Mike proposed to Katy at her family cabin on the Skykomish River. He surprised her on the banks of the river when she left to get water.
-                            Their friends all decorated the cabin in the bunting Katy had made for them and they had a great night celebrating.
-
-                            And then there was a bat.
-
-
+                            Their friends all decorated the cabin in the bunting Katy had made for them and they had a great night celebrating, until the bat showed up.
                         </p>
                         <p>Mike and Katy are so excited to have friends and family come celebrate their love and life together.</p>
                     </Card>
