@@ -20,7 +20,7 @@ class Recreation extends React.Component {
                         <Card.Header style={{ backgroundColor: "white" }}>
                             <h3 className='mt-2'>Fishing</h3>
                         </Card.Header>
-                        <Image src={fishingPageImage} className="mt-2" fluid="true" style={{ width: "50%", margin: "auto" }}></Image>
+                        <Image src="https://ik.imagekit.io/4lalrpwz0sy/FishingPage_UAx3skvp4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662797300576" className="mt-2" fluid="true" style={{ width: "50%", margin: "auto" }}></Image>
                         <br></br>
                         <Card.Body>
                             <h6 style={{ textAlign: "center" }}>There are lots of fishing options around the venue. Here are a few recommendations!</h6>
@@ -39,7 +39,7 @@ class Recreation extends React.Component {
                         <Card.Header style={{ backgroundColor: "white" }}>
                             <h3>Hiking</h3>
                         </Card.Header>
-                        <Image src={hikingPageImage} className="mt-2" fluid="true" style={{ width: "50%", margin: "auto" }}></Image>
+                        <Image src="https://ik.imagekit.io/4lalrpwz0sy/HikingPage_xEk-QsJJu.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662797300855" className="mt-2" fluid="true" style={{ width: "50%", margin: "auto" }}></Image>
                         <br></br>
                         <Card.Body>
                             <h4><a className="recLink" href='http://www.packforest.org/trail-map.html' target={"_blank"} rel={"noreferrer"}>Pack Forest Trails</a></h4>
@@ -59,7 +59,7 @@ class Recreation extends React.Component {
                         <Card.Header style={{ backgroundColor: "white" }}>
                             <h3>Other Activities</h3>
                         </Card.Header>
-                        <Image src={otherActivitiesImage} className="mt-2" fluid="true" style={{ width: "50%", margin: "auto" }}></Image>
+                        <Image src="https://ik.imagekit.io/4lalrpwz0sy/OtherActivitiesImage_MQxCxv_9d.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662797299551" className="mt-2" fluid="true" style={{ width: "50%", margin: "auto" }}></Image>
 
                         <br></br>
                         <Card.Body>

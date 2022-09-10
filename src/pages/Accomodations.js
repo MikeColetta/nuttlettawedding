@@ -1,7 +1,5 @@
 import React from 'react';
 import { Container, Card, Image } from 'react-bootstrap';
-import accomodationsPageImage from '../assets/images/AccomodationsPage.jpg'
-
 
 class Accomodations extends React.Component {
 
@@ -14,7 +12,7 @@ class Accomodations extends React.Component {
                         <Card.Header style={{ backgroundColor: "white" }}>
                             <h2>Accomodations</h2>
                         </Card.Header>
-                        <Image src={accomodationsPageImage} style={{ height: "50%", width: "50%", margin: "auto" }} className="mt-2"></Image>
+                        <Image src="https://ik.imagekit.io/4lalrpwz0sy/AccomodationsPage_VCDqJSixAp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662797301218" style={{ height: "50%", width: "50%", margin: "auto" }} className="mt-2"></Image>
                         <br></br>
                         <Card.Text>
                             <h4>Cabins</h4>

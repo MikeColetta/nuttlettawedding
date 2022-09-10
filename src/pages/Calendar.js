@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Card, Table, Image } from 'react-bootstrap';
-import CalendarPageImage from '../assets/images/CalendarPageImage.jpg';
 
 class Calendar extends React.Component {
 
@@ -66,7 +65,7 @@ class Calendar extends React.Component {
                         </tbody>
                     </Table>
                     <br></br>
-                    <Image src={CalendarPageImage} style={{ height: "100%", width: "100%", margin: "auto" }} className="mt-2 mb-2"></Image>
+                    <Image src="https://ik.imagekit.io/4lalrpwz0sy/CalendarPageImage_V7fGWxDN_w.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662797300276" style={{ height: "100%", width: "100%", margin: "auto" }} className="mt-2 mb-2"></Image>
                 </Container>
 
             </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Card, Image } from 'react-bootstrap';
-import FeesPageImage from '../assets/images/FeesPageImage.jpg';
 
 class Fees extends React.Component {
 
@@ -21,7 +20,7 @@ class Fees extends React.Component {
                             <p>Stay tuned to this page for updates regarding the price once invitations have been sent out.
                                 Payment can be given to Katy via check, cash, or Venmo (@TheNuttChild).</p>
                         </Card.Body>
-                        <Image src={FeesPageImage} style={{ height: "100%", width: "100%", margin: "auto" }} className="mt-2 mb-2"></Image>
+                        <Image src="https://ik.imagekit.io/4lalrpwz0sy/FeesPageImage_fNblNr10J.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662797302182" style={{ height: "100%", width: "100%", margin: "auto" }} className="mt-2 mb-2"></Image>
                     </Card>
                 </Container>
             </div>

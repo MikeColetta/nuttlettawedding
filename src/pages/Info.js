@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Card, Image } from 'react-bootstrap';
-import InfoPageImage from '../assets/images/InfoPageImage.jpg';
 
 class Info extends React.Component {
 
@@ -13,15 +12,17 @@ class Info extends React.Component {
                         <Card.Header style={{ backgroundColor: "white" }}>
                             <h2>How Mike and Katy Met</h2>
                         </Card.Header>
-                        <Image src={InfoPageImage} style={{ height: "50%", width: "50%", margin: "auto" }} className="mt-2 mb-2"></Image>
+                        <Image src="https://ik.imagekit.io/4lalrpwz0sy/InfoPageImage_Tlxo44Q2W.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662797302760" style={{ height: "50%", width: "50%", margin: "auto" }} className="mt-2 mb-2"></Image>
                         <p>Mike and Katy met at Washington State University in the Nuthouse Improv Troupe. They actually both
                             had their first show with Nuthouse together.
                         </p>
                         <p>They started dating in the fall of 2008. Mike graduated in 2010, with Katy earning two bachelor's degrees in Theatre
-                            and English, graduating in 2011. Since 2018 they've been living in Normandy Park with their loveable murder muppet, Delilah.
-
-                            Mike proposed to Katy at her family cabin on the Skykomish River. He surprised her on the banks of the river when she left to get water.
-                            Their friends all decorated the cabin in the bunting Katy had made for them and they had a great night celebrating, until the bat showed up.
+                            and English, graduating in 2011. Since 2018 they've been living in Normandy Park together with their loveable murder muppet, Delilah.
+                            Mike proposed to Katy at her family cabin on the Skykomish River. He surprised her on the banks of the river in her pajamas when she left to get water.
+                        </p>
+                        <p>Truly a romantic moment for the ages.</p>
+                        <p>What Mike didn't know, is all their friends decorated the cabin in the bunting Katy had made for them. Surprised, they then spent the night celebrating,
+                            and then the bat showed up.
                         </p>
                         <p>Mike and Katy are so excited to have friends and family come celebrate their love and life together.</p>
                     </Card>

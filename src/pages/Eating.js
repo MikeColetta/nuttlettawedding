@@ -1,7 +1,5 @@
 import React from 'react';
 import { Container, Card, Image } from 'react-bootstrap';
-import EatingPageImage from '../assets/images/EatingPageImage.jpg';
-
 
 class Eating extends React.Component {
 
@@ -14,7 +12,7 @@ class Eating extends React.Component {
                         <Card.Header style={{ backgroundColor: "white" }}>
                             <h2>Eating</h2>
                         </Card.Header>
-                        <Image src={EatingPageImage} style={{ height: "75%", width: "75%", margin: "auto" }} className="mt-2"></Image>
+                        <Image src="https://ik.imagekit.io/4lalrpwz0sy/Eating_4jcG2VmVE.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795539001" style={{ height: "75%", width: "75%", margin: "auto" }} className="mt-2"></Image>
                         <br></br>
                         <Card.Body>
                             <p>If you're staying with us for the weekend, food will be provided. Stay tuned to this page for a menu coming soon!</p>
