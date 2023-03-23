@@ -9,6 +9,19 @@ function PhotoTiles() {
             <Row>
                 <Col>
                     <Card className="photoTileCard">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBReDg1c1exMg1eUI1-w1qSyfnmEgbFkCnyHtyfCup8Ty_kA/viewform?usp=sf_link" className="photoTileLink" target={"_blank"} rel="noreferrer">
+                            <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/RSVP_VzcY2hfua.png?updatedAt=1679543976590" />
+                            <Card.Body>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBReDg1c1exMg1eUI1-w1qSyfnmEgbFkCnyHtyfCup8Ty_kA/viewform?usp=sf_link" className="photoTileLink" target={"_blank"} rel="noreferrer">
+                                    <Card.Title>RSVP</Card.Title>
+                                </a>
+                                <Card.Text>RSVP to the wedding!</Card.Text>
+                            </Card.Body>
+                        </a>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card className="photoTileCard">
                         <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Directions_0AXyEWpiBD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795539151" />
                         <Card.Body>
                             <Link to="/Maps" className="photoTileLink">
@@ -29,6 +42,9 @@ function PhotoTiles() {
                         </Card.Body>
                     </Card>
                 </Col>
+
+            </Row>
+            <Row className="mt-2">
                 <Col>
                     <Card className="photoTileCard">
                         <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Accomodations_UOW6oh0c2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795539976" />
@@ -40,8 +56,6 @@ function PhotoTiles() {
                         </Card.Body>
                     </Card>
                 </Col>
-            </Row>
-            <Row className="mt-2">
                 <Col>
                     <Card className="photoTileCard">
                         <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/About_-WP24av3P.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795538947" />
@@ -64,6 +78,9 @@ function PhotoTiles() {
                         </Card.Body>
                     </Card>
                 </Col>
+
+            </Row>
+            <Row className="mt-2">
                 <Col>
                     <Card className="photoTileCard">
                         <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Calendar_868WiEw_iF.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795539227" />
@@ -75,8 +92,6 @@ function PhotoTiles() {
                         </Card.Body>
                     </Card>
                 </Col>
-            </Row>
-            <Row className="mt-2">
                 <Col>
                     <Card className="photoTileCard">
                         <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/Registry_4SR_x5oSS.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795538898" />
@@ -99,6 +114,9 @@ function PhotoTiles() {
                         </Card.Body>
                     </Card>
                 </Col>
+
+            </Row>
+            <Row>
                 <Col>
                     <Card className="photoTileCard">
                         <Card.Img variant="top" src="https://ik.imagekit.io/4lalrpwz0sy/FeesPhototile_Y4duoqYci.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662795370054" />
@@ -110,6 +128,8 @@ function PhotoTiles() {
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col></Col>
+                <Col></Col>
             </Row>
         </Container>
     )
