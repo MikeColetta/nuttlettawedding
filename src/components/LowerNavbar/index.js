@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExclamationTriangle, faInfoCircle, faMapMarker, faCalendar, faTicket } from "@fortawesome/free-solid-svg-icons";
+import { faExclamationTriangle, faInfoCircle, faMapMarker, faCalendar, faTicket, faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 function LowerNavbar() {
     return (
@@ -11,10 +11,18 @@ function LowerNavbar() {
             <Container>
                 <Navbar className="lowerNavbar">
                     <NavDropdown title="Plan Your Visit" id="navbarScrollingDropdown" className="lowerNavbarDropdown">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBReDg1c1exMg1eUI1-w1qSyfnmEgbFkCnyHtyfCup8Ty_kA/viewform?usp=sf_link"
+                            className="customNavbarItem"
+                            target={"_blank"}
+                            rel="noreferrer">
+                            RSVP
+                        </a>
+                        <br></br>
                         <Link to="/Maps" className="customNavbarItem">
                             Maps
                         </Link>
-                        <br></br><Link to="/Eating" className="customNavbarItem">
+                        <br></br>
+                        <Link to="/Eating" className="customNavbarItem">
                             Eating
                         </Link>
                         <br></br>
@@ -53,9 +61,16 @@ function LowerNavbar() {
                         <Link to="/Alerts" className="customNavbarItem">
                             Alerts
                         </Link>
-                        <br></br>
                     </NavDropdown>
                     <Nav className="lowerNavbarLinks">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBReDg1c1exMg1eUI1-w1qSyfnmEgbFkCnyHtyfCup8Ty_kA/viewform?usp=sf_link"
+                            className="customLowerNavbarItem"
+                            target={"_blank"}
+                            rel="noreferrer">
+                            RSVP
+                            <br></br>
+                            <FontAwesomeIcon icon={faCheckCircle}></FontAwesomeIcon>
+                        </a>
                         <Link to="/Info" className="customLowerNavbarItem">
                             Info
                             <br></br>
