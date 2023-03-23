@@ -8,17 +8,16 @@ function UpperNavbar() {
         <Container>
             <Navbar className="customNavbar" expand="lg" variant="dark">
                 <Link to="/" className="upperNavbarLink">
-                    {/* <img
-                        alt="Codex Logo"
-                        src={Logo}
-                        width="60"
-                        height="60"
-                        className="d-inline-block align-top navbarLogo"
-                    />{' '} */}
                     <h1 className="websiteName">Mike and Katy's Wedding</h1>
                 </Link>
-
                 <NavDropdown align="end" title="Menu" id="nav-dropdown" className='customDropdown'>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBReDg1c1exMg1eUI1-w1qSyfnmEgbFkCnyHtyfCup8Ty_kA/viewform?usp=sf_link"
+                        className="customNavbarItem"
+                        target={"_blank"}
+                        rel="noreferrer">
+                        RSVP
+                    </a>
+                    <br></br>
                     <Link to="/Info" className="customNavbarItem">
                         Info
                     </Link>
