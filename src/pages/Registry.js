@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Card, Image } from 'react-bootstrap';
 
 class Registry extends React.Component {
+
     render() {
         return (
             <div className="sectionDiv">
