@@ -15,6 +15,17 @@ class Accomodations extends React.Component {
                         <Image src="https://ik.imagekit.io/4lalrpwz0sy/AccomodationsPage_VCDqJSixAp.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1662797301218" style={{ height: "50%", width: "50%", margin: "auto" }} className="mt-2"></Image>
                         <br></br>
                         <Card.Text>
+                            <h4>Accomodation Options</h4>
+                            <p>We would love to have you stay with us for the entire weekend!
+                                We've worked with the conference center to ensure comfortable indoor “camp” style accommodations and dining hall meals for those of you who would like to join us for an “extended” wedding celebration beyond just the ceremony and reception.
+                            </p>
+                            <p>There are two extended stay options available:</p>
+                            <p>Option 1: Friday 8/11-Sunday 8/13, $198 per person
+                                This includes lodging for two nights, dinner on Friday night, breakfast and lunch on Saturday, with reception dinner paid
+                                for by the happy couple, and brunch on Sunday morning.</p>
+
+                            <p> Option 2: Saturday 8/12-Sunday 8/13, $80 per person
+                                This includes lodging for one night, and brunch on Sunday morning, with dinner on Saturday night covered by the happy couple.</p>
                             <h4>Cabins</h4>
                             <p>Cabins at Pack Forest each have 4 bunk beds, for a total of 8 twin beds in each cabin.
                                 The restrooms and showers for these cabins are shared and located in a separate building next to the cabins.</p>
