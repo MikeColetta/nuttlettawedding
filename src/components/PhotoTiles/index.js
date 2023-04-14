@@ -15,7 +15,7 @@ function PhotoTiles() {
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBReDg1c1exMg1eUI1-w1qSyfnmEgbFkCnyHtyfCup8Ty_kA/viewform?usp=sf_link" className="photoTileLink" target={"_blank"} rel="noreferrer">
                                     <Card.Title>RSVP</Card.Title>
                                 </a>
-                                <Card.Text>RSVP to the wedding!</Card.Text>
+                                <Card.Text>RSVP to the wedding by May 20th, 2023</Card.Text>
                             </Card.Body>
                         </a>
                     </Card>
