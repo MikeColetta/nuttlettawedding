@@ -24,7 +24,7 @@ class Fees extends React.Component {
                             <p>Payment can be given to Katy via check, cash, or Venmo (@TheNuttChild).</p>
                             <br></br>
                             <h4>Child Costs</h4>
-                            <Table className="mt-2" responsive="sm">
+                            <Table className="mt-2 feesTable" responsive="sm">
                                 <thead>
                                     <tr>
                                         <th>Fri/Sat/Sun</th>
