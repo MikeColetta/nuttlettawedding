@@ -86,3 +86,6 @@ li {
 .recLink:focus {
   color: black;
 }
+.feesTable {
+  font-size: small;
+}
