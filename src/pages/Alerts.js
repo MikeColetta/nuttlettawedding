@@ -14,10 +14,6 @@ class Alerts extends React.Component {
                             <h2 className='alertsTitle'>Alerts in Effect</h2>
                         </Card.Header>
                         <Card.Body>
-                            <h4>COVID-19 Information</h4>
-                            <p>At this time, the venue is mandating Covid vaccines for all guests.
-                                Please be sure that you have completed your vaccine series and all recommended boosters in order to attend this event.
-                                Should there be any updates to this policy, we will update this page.</p>
                             <h4>Being Bear Aware</h4>
                             <p>From the US Forest Service: "Being outdoors means being with wildlife. Many people never encounter a bear. But if you do, here's some simple advice:</p>
                             <ul>
