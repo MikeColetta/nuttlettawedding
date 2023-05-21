@@ -54,7 +54,7 @@ class Fees extends React.Component {
                                 <tbody>
                                     <tr>
                                         <td>2 and Under</td>
-                                        <td>$25.50</td>
+                                        <td>$12.50</td>
                                     </tr>
                                     <tr>
                                         <td>3-8</td>
